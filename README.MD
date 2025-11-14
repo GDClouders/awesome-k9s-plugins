@@ -8,6 +8,7 @@ A simple collection of K9s plugins that I use in my personal setup.
 A list of plugins included in this repository.  
 - **anti-finalizer** - ***simply put finalizer to NULL***
 - **full-wonderful-logs** - ***coloured log scrollable*** - requirements: ccze, bat
+- **node-shell** - ***connect to your node shell from k9s*** - requirements: node-shell (you can install with krew)
 
 ## Usage
 
