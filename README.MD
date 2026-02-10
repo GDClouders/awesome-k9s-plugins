@@ -11,6 +11,8 @@ A list of plugins included in this repository.
 - **node-shell** - ***connect to your node shell from k9s*** - requirements: node-shell (you can install with krew)
 - **openssl** - ***inspect CA and generic TLS Secrets*** - requirements: openssl, bat
 - **blame** - ***Show resource edits line by line*** - requirements: bat, kubectl-blame (you can install with krew)
+- **debug container** - ***Spawn debug container on side*** -
+
 
 ## Usage
 
