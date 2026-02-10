@@ -12,6 +12,7 @@ A list of plugins included in this repository.
 - **openssl** - ***inspect CA and generic TLS Secrets*** - requirements: openssl, bat
 - **blame** - ***Show resource edits line by line*** - requirements: bat, kubectl-blame (you can install with krew)
 - **debug container** - ***Spawn debug container on side*** -
+- **pvc mounter** - ***Spawn container that mount a specific PVC, reachable from PVC tab*** -
 
 
 ## Usage
