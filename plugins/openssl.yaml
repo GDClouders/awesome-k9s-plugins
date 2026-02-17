@@ -21,7 +21,7 @@ configmap-openssl-ca:
     - -c
     - kubectl get configmap --context $CONTEXT -n $NAMESPACE $NAME -o jsonpath='{.data.ca\.crt}' | openssl storeutl -noout -text -certs /dev/stdin |& bat
 secret-openssl-tls:
-  shortCut: Shift-O
+  shortCut: Shift-T
   confirm: false
   description: Openssl tls.crt
   scopes:
